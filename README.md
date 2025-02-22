@@ -1,4 +1,4 @@
-A Chrome extension that turns selected numbers into nhentai link.
+A broser extension that turns selected numbers into nhentai link.
 
 Set up
 1. Download the ZIP file and unzip it.
