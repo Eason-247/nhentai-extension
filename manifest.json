@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "nhentai linker",
+  "version": "1.0",
+  "description": "select code and right click to open nhentai",
+  "permissions": ["contextMenus", "tabs"],
+  "background": {
+      "service_worker": "main.js"
+  },
+  "host_permissions": ["https://nhentai.net/*"],
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  }
+}
