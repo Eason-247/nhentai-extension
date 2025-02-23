@@ -1,13 +1,13 @@
 {
   "manifest_version": 3,
-  "name": "nhentai linker",
+  "name": "nhentai/x linker",
   "version": "1.0",
-  "description": "select code and right click to open nhentai",
+  "description": "A Chrome extension that turns selected numbers/x account into nhentai/x link.",
   "permissions": ["contextMenus", "tabs"],
   "background": {
       "service_worker": "main.js"
   },
-  "host_permissions": ["https://nhentai.net/*"],
+  "host_permissions": ["https://nhentai.net/*","https://x.com/*"],
   "icons": {
     "16": "icon.png",
     "48": "icon.png",
